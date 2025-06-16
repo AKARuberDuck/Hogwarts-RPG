@@ -1,0 +1,19 @@
+{
+  "name": "hogwarts-rpg",
+  "version": "1.0.0",
+  "description": "An immersive Hogwarts RPG powered by Supabase and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.0.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "AKARuberDuck",
+  "license": "MIT"
+}
