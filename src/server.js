@@ -6,16 +6,31 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Allows JSON request handling
 
-// Supabase Configuration
+// 🏰 Supabase Configuration
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 const db = supabase.createClient(supabaseUrl, supabaseKey);
 
-// 🏰 Fetch All Players
-app.get("/players", async (req, res) => {
-    let { data, error } = await db.from("player_data").select("*");
+// 🔒 Player Sign-Up (Register a New Account)
+app.post("/signup", async (req, res) => {
+    const { email, password } = req.body;
+    if (!email || !password) return res.status(400).json({ error: "Missing credentials" });
+
+    const { user, error } = await db.auth.signUp({ email, password });
     if (error) return res.status(500).json({ error });
-    res.json(data);
+
+    res.json({ message: "✅ Account created successfully!", user });
+});
+
+// 🔑 Player Login
+app.post("/login", async (req, res) => {
+    const { email, password } = req.body;
+    if (!email || !password) return res.status(400).json({ error: "Missing credentials" });
+
+    const { session, error } = await db.auth.signInWithPassword({ email, password });
+    if (error) return res.status(401).json({ error });
+
+    res.json({ message: "✅ Login successful!", session });
 });
 
 // 🏆 Fetch House Points
@@ -71,4 +86,4 @@ app.post("/spell", async (req, res) => {
 
 // 🚀 Start Server
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Hogwarts RPG server running on port ${PORT}!`));
+app.listen(PORT, () => console.log(`
