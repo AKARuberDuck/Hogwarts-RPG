@@ -29,22 +29,12 @@ app.post("/sort", async (req, res) => {
 
 // ⚔️ Wizard Duel
 app.post("/duel", async (req, res) => {
-    const duelSpells = ["Expelliarmus", "Protego", "Stupefy", "Crucio"];
     const { playerSpell, opponentSpell } = req.body;
+    const spells = { "Expelliarmus": "Disarm!", "Protego": "Block!", "Stupefy": "Stun!" };
 
-    let result = determineDuelOutcome(playerSpell, opponentSpell);
+    const result = spells[playerSpell] && spells[opponentSpell] ? `⚔️ You cast ${playerSpell}, your opponent cast ${opponentSpell}!` : "❌ Invalid spell selection!";
     res.json({ result });
 });
-
-function determineDuelOutcome(playerSpell, opponentSpell) {
-    if (playerSpell === "Expelliarmus" && opponentSpell !== "Protego") {
-        return "⚔️ You disarmed your opponent! You win!";
-    } else if (playerSpell === "Protego") {
-        return "🛡️ You blocked the attack!";
-    } else {
-        return "💥 You took damage! Try again.";
-    }
-}
 
 // 🏆 Quidditch Scoring
 app.post("/quidditch-score", async (req, res) => {
@@ -53,18 +43,14 @@ app.post("/quidditch-score", async (req, res) => {
     res.json({ message: `🏆 ${house} earned ${points} points in Quidditch!` });
 });
 
-// 🔼 Wizard Career Progression
+// 🏰 Career Progression
 app.post("/promote", async (req, res) => {
     const { career, currentRank } = req.body;
-    const careerRanks = {
-        "Auror": ["Trainee", "Junior Auror", "Senior Auror", "Head Auror"],
-        "Professor": ["Apprentice", "Assistant Professor", "Full Professor", "Head of Department"]
-    };
+    const careerRanks = { "Auror": ["Trainee", "Senior Auror", "Head Auror"], "Professor": ["Assistant", "Full Professor", "Head of Department"] };
+
     const ranks = careerRanks[career];
     const index = ranks.indexOf(currentRank);
-    let promotionMessage = index === -1 || index === ranks.length - 1
-        ? "🌟 You have reached the highest rank!"
-        : `🎓 Promoted from **${currentRank}** to **${ranks[index + 1]}**!`;
+    let promotionMessage = index === -1 || index === ranks.length - 1 ? "🌟 You have reached the highest rank!" : `🎓 Promoted from **${currentRank}** to **${ranks[index + 1]}**!`;
 
     res.json({ message: promotionMessage });
 });
