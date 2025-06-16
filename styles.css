@@ -1,1 +1,18 @@
+body {
+    font-family: 'Harry P', serif;
+    background: url('hogwarts.jpg') no-repeat center;
+    text-align: center;
+    color: gold;
+}
 
+button {
+    background-color: black;
+    color: gold;
+    padding: 10px;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
