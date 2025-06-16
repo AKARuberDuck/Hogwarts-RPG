@@ -43,3 +43,4 @@ app.get("/house-points", async (req, res) => {
 // 🚀 Start Server with Proper Port Handling
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Hogwarts RPG server running on port ${PORT}!`));
+    
