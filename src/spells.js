@@ -1,13 +1,14 @@
 const spells = {
-    "Expelliarmus": "Disarms your opponent!",
-    "Lumos": "Lights up dark areas!",
-    "Alohomora": "Unlocks doors!",
-    "Expecto Patronum": "Summons your Patronus!"
+    "Expelliarmus": "Disarms opponent!",
+    "Protego": "Shields against attack!",
+    "Stupefy": "Stuns the target!",
+    "Expecto Patronum": "Summons a Patronus!"
 };
 
 function castSpell(spellName) {
     return spells[spellName] || "❌ Invalid spell!";
 }
 
-// Example usage:
-console.log(castSpell("Lumos")); // Output: "Lights up dark areas!"
+function duelOpponent(playerSpell, opponentSpell) {
+    return spells[playerSpell] && spells[opponentSpell] ? `⚔️ Duel Outcome: You cast ${playerSpell}, opponent cast ${opponentSpell}!` : "❌ Invalid spell selection!";
+}
