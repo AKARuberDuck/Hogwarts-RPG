@@ -6,7 +6,8 @@ const spells = {
 };
 
 function castSpell(spellName) {
-    return spells[spellName] ? `✨ You cast ${spellName}! ${spells[spellName]}` : "❌ Invalid spell!";
+    return spells[spellName] || "❌ Invalid spell!";
 }
 
-module.exports = { spells, castSpell };
+// Example usage:
+console.log(castSpell("Lumos")); // Output: "Lights up dark areas!"
