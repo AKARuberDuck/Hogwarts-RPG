@@ -1,15 +1,13 @@
-const years = {
-    1: "Discover Hogwarts & defeat Quirrell",
-    2: "Uncover the mystery of the Chamber of Secrets",
-    3: "Protect Hogwarts from Dementors",
-    4: "Compete in the Triwizard Tournament",
-    5: "Join Dumbledore’s Army against Umbridge",
-    6: "Investigate Voldemort's Horcruxes",
-    7: "Defend Hogwarts in the final battle"
-};
+const quests = [
+    { name: "Retrieve the Sorcerer's Stone", reward: 100 },
+    { name: "Defeat a Basilisk", reward: 200 },
+    { name: "Win the Triwizard Tournament", reward: 300 }
+];
 
-function getYearQuest(year) {
-    return years[year] ? `📖 Year ${year}: ${years[year]}` : "❌ Invalid year!";
+function getQuestDetails(questName) {
+    const quest = quests.find(q => q.name === questName);
+    return quest ? `📜 Quest: ${quest.name} - 🏆 Reward: ${quest.reward} points` : "❌ Quest not found!";
 }
 
-module.exports = { getYearQuest };
+// Example usage:
+console.log(getQuestDetails("Defeat a Basilisk")); // Output: "Quest: Defeat a Basilisk - Reward: 200 points"
