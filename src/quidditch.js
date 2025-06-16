@@ -1,11 +1,16 @@
 const positions = ["Seeker", "Beater", "Keeper", "Chaser"];
 
 function quidditchMatch(position) {
-    if (position === "Seeker") return "⚡ You chase the Golden Snitch!";
-    else if (position === "Beater") return "🏏 You defend teammates with Bludgers!";
-    else if (position === "Keeper") return "🥅 You guard the goalposts!";
-    else if (position === "Chaser") return "🏆 You pass the Quaffle to score!";
-    return "❌ Invalid position!";
+    if (!positions.includes(position)) return "❌ Invalid position!";
+
+    const outcomes = {
+        "Seeker": Math.random() > 0.5 ? "⚡ You caught the Golden Snitch! Your house wins!" : "❌ You missed the Snitch! Try again.",
+        "Beater": Math.random() > 0.7 ? "🏏 You successfully defended your teammates!" : "❌ You got hit by a Bludger!",
+        "Keeper": Math.random() > 0.75 ? "🥅 You blocked the shot!" : "❌ The opposing team scored!",
+        "Chaser": Math.random() > 0.6 ? "🏆 You scored a goal for your house!" : "❌ The shot missed!"
+    };
+
+    return outcomes[position];
 }
 
 module.exports = { positions, quidditchMatch };
