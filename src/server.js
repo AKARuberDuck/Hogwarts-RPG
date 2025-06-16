@@ -16,6 +16,14 @@ if (!supabaseUrl || !supabaseKey) {
     process.exit(1);
 }
 
+// ✅ Validate Supabase URL format before creating the client
+try {
+    new URL(supabaseUrl);
+} catch (error) {
+    console.error("❌ Invalid Supabase URL:", supabaseUrl);
+    process.exit(1);
+}
+
 const db = supabase.createClient(supabaseUrl, supabaseKey);
 
 // 🔒 Player Sign-Up (Register a New Account)
@@ -62,35 +70,4 @@ app.post("/sort", async (req, res) => {
     res.json({ message: `🎩 The Sorting Hat declares: You belong in **${sortedHouse}**!` });
 });
 
-// 🪄 Wand Selection
-app.post("/wand", async (req, res) => {
-    const { username, answers } = req.body;
-    if (!username || !answers) return res.status(400).json({ error: "Missing data" });
-
-    const wandCores = ["Phoenix Feather", "Dragon Heartstring", "Unicorn Hair"];
-    const wandWoods = ["Oak", "Holly", "Elm", "Yew", "Cherry"];
-    let core = wandCores[answers.includes("Creativity") ? 0 : answers.includes("Strength") ? 1 : 2];
-    let wood = wandWoods[answers.includes("Defense magic") ? 0 : answers.includes("Nature magic") ? 3 : 4];
-
-    const { error } = await db.from("player_data").update({ wand: `${wood} with ${core} core` }).eq("username", username);
-    if (error) return res.status(500).json({ error });
-
-    res.json({ message: `🪄 Your wand is crafted from **${wood}**, with a **${core}** core!` });
-});
-
-// 🔮 Spell Casting
-app.post("/spell", async (req, res) => {
-    const { spellName } = req.body;
-    const spells = {
-        "Expelliarmus": "Disarms your opponent!",
-        "Lumos": "Lights up dark areas!",
-        "Alohomora": "Unlocks doors!",
-        "Expecto Patronum": "Summons your Patronus!"
-    };
-
-    res.json({ message: spells[spellName] || "❌ Invalid spell!" });
-});
-
-// 🚀 Start Server with Proper Port Handling
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Hogwarts RPG server running on port ${PORT}!`));
+//
