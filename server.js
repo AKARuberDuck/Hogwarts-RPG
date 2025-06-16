@@ -16,13 +16,6 @@ app.get("/", (req, res) => {
     res.json({ message: "🚀 Hogwarts RPG API is running!" });
 });
 
-// 🏆 Fetch House Points
-app.get("/house-points", async (req, res) => {
-    const { data, error } = await db.from("house_points").select("*");
-    if (error) return res.status(500).json({ error });
-    res.json(data);
-});
-
 // 🎩 Sorting Ceremony
 app.post("/sort", async (req, res) => {
     const { username, answers } = req.body;
@@ -30,29 +23,52 @@ app.post("/sort", async (req, res) => {
     answers.forEach(answer => housePoints[answer]++);
     let sortedHouse = Object.keys(housePoints).reduce((a, b) => housePoints[a] > housePoints[b] ? a : b);
     
-    const { error } = await db.from("player_data").insert([{ username, house: sortedHouse }]);
-    if (error) return res.status(500).json({ error });
-
+    await db.from("player_data").insert([{ username, house: sortedHouse }]);
     res.json({ message: `🎩 The Sorting Hat declares: You belong in **${sortedHouse}**!` });
 });
 
-// 🪄 Spell Casting
-app.post("/cast-spell", async (req, res) => {
-    const spells = {
-        "Expelliarmus": "Disarms your opponent!",
-        "Lumos": "Lights up dark areas!",
-        "Alohomora": "Unlocks doors!",
-        "Expecto Patronum": "Summons your Patronus!"
-    };
+// ⚔️ Wizard Duel
+app.post("/duel", async (req, res) => {
+    const duelSpells = ["Expelliarmus", "Protego", "Stupefy", "Crucio"];
+    const { playerSpell, opponentSpell } = req.body;
 
-    const { spellName } = req.body;
-    res.json({ message: spells[spellName] || "❌ Invalid spell!" });
+    let result = determineDuelOutcome(playerSpell, opponentSpell);
+    res.json({ result });
 });
+
+function determineDuelOutcome(playerSpell, opponentSpell) {
+    if (playerSpell === "Expelliarmus" && opponentSpell !== "Protego") {
+        return "⚔️ You disarmed your opponent! You win!";
+    } else if (playerSpell === "Protego") {
+        return "🛡️ You blocked the attack!";
+    } else {
+        return "💥 You took damage! Try again.";
+    }
+}
 
 // 🏆 Quidditch Scoring
 app.post("/quidditch-score", async (req, res) => {
     const { house, points } = req.body;
-    if (!house || points === undefined) return res.status(400).json({ error: "Missing data" });
+    await db.from("house_points").update({ points }).eq("house", house);
+    res.json({ message: `🏆 ${house} earned ${points} points in Quidditch!` });
+});
 
-    const { error } = await db.from("house_points").update({ points }).eq("house", house);
-    if (error) return res.status
+// 🔼 Wizard Career Progression
+app.post("/promote", async (req, res) => {
+    const { career, currentRank } = req.body;
+    const careerRanks = {
+        "Auror": ["Trainee", "Junior Auror", "Senior Auror", "Head Auror"],
+        "Professor": ["Apprentice", "Assistant Professor", "Full Professor", "Head of Department"]
+    };
+    const ranks = careerRanks[career];
+    const index = ranks.indexOf(currentRank);
+    let promotionMessage = index === -1 || index === ranks.length - 1
+        ? "🌟 You have reached the highest rank!"
+        : `🎓 Promoted from **${currentRank}** to **${ranks[index + 1]}**!`;
+
+    res.json({ message: promotionMessage });
+});
+
+// 🚀 Start Server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`🚀 Hogwarts RPG server running on port ${PORT}!`));
