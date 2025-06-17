@@ -40,22 +40,22 @@ Each year in the game follows **major events from the books/movies**, allowing p
 
 ## **🚀 Installation & Setup**  
 
-###1️⃣ **Clone the repository:**  
+1️⃣ **Clone the repository:**  
 
-git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git
-###2️⃣ **Install dependencies:**
+  git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git
+2️⃣ **Install dependencies:**
 
-npm install
-###3️⃣ **Start the server:**
+  npm install
+3️⃣ **Start the server:**
 
-npm start
-###4️⃣ **Access the game:** 
+  npm start
+4️⃣ **Access the game:** 
 
-Open http://localhost:3000 in your browser.
+  Open http://localhost:3000 in your browser.
 ## **🛠️ Future Expansions**
 ### **🎩 Multiplayer Mode** – Duel other players or compete in inter-house challenges. 
 ### **🪄 Custom Wizard Path** – Unlock rare magical abilities and become a legendary wizard.
 ### **🏰 Hogwarts Secrets** – Discover hidden chambers, forgotten spells, and mythical creatures.
 
-# **📜 Credits & Contributions**
-Contributions are welcome! 🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀
+## **📜 Credits & Contributions**
+**Contributions are welcome!** 🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀
