@@ -42,19 +42,15 @@ Each year follows **major events from the books/movies**, but **your choices** m
 ## **🚀 Installation & Setup**  
 
 1️⃣ **Clone the repository:**  
-
 ```git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git```
 
 2️⃣ **Install dependencies:**
-
 ```npm install```
 
 3️⃣ **Start the server:**
-
 ```npm start```
 
 4️⃣ **Access the game:**
-
 Open ```https://localhost:3000``` in your browser.
 
 ## **🛠️ Future Expansions**
