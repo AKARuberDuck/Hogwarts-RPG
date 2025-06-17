@@ -3,7 +3,6 @@
 An immersive **Harry Potter-inspired RPG**, where players experience **seven years at Hogwarts**, learning magic, competing for house points, and shaping their own destiny!  
 
 ## **🏰 Features**  
-
 ✅ **Sorting Ceremony** – Get sorted into **one of the four houses** based on your personality.  
 ✅ **Wand Selection** – Receive a unique wand tailored to your magical traits.  
 ✅ **Advanced Spell Casting & Duels** – Engage in **strategic spell combat**, mastering new magical techniques over time.  
@@ -29,9 +28,8 @@ An immersive **Harry Potter-inspired RPG**, where players experience **seven yea
 
 ## **⚡ How to Play**  
 
-### **🧙 Year-by-Year Progression**  
+## **🧙 Year-by-Year Progression**  
 Each year in the game follows **major events from the books/movies**, allowing players to influence **alternate outcomes**.  
-
 1️⃣ **Year 1: The Sorcerer’s Stone** – Uncover the mystery of the Philosopher’s Stone.  
 2️⃣ **Year 2: The Chamber of Secrets** – Discover the Heir of Slytherin and battle the Basilisk.  
 3️⃣ **Year 3: The Prisoner of Azkaban** – Learn about Sirius Black and master time-turner mechanics.  
@@ -54,7 +52,7 @@ npm start
 4️⃣ **Access the game:** 
 
 Open http://localhost:3000 in your browser.
-# **🛠️ Future Expansions**
+## **🛠️ Future Expansions**
 ### **🎩 Multiplayer Mode** – Duel other players or compete in inter-house challenges. 
 ### **🪄 Custom Wizard Path** – Unlock rare magical abilities and become a legendary wizard.
 ### **🏰 Hogwarts Secrets** – Discover hidden chambers, forgotten spells, and mythical creatures.
