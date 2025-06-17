@@ -31,13 +31,13 @@
 
 Each year follows **major events from the books/movies**, but **your choices** may **alter outcomes** and create **new story possibilities**.  
 
-1️⃣ **Year 1: The Sorcerer’s Stone** – Uncover the mystery of the Philosopher’s Stone.  
-2️⃣ **Year 2: The Chamber of Secrets** – Discover the Heir of Slytherin and battle the Basilisk.  
-3️⃣ **Year 3: The Prisoner of Azkaban** – Learn about Sirius Black and master time-turner mechanics.  
-4️⃣ **Year 4: The Goblet of Fire** – Enter the **Triwizard Tournament** and face magical challenges.  
-5️⃣ **Year 5: The Order of the Phoenix** – Join **Dumbledore’s Army** and resist Umbridge’s rule.  
-6️⃣ **Year 6: The Half-Blood Prince** – Explore **Voldemort’s history** and uncover **Horcruxes**.  
-7️⃣ **Year 7: The Deathly Hallows** – Take part in **the final battle**, choosing your **fate in the wizarding war**.  
+-  **Year 1: The Sorcerer’s Stone** – Uncover the mystery of the Philosopher’s Stone.  
+-  **Year 2: The Chamber of Secrets** – Discover the Heir of Slytherin and battle the Basilisk.  
+-  **Year 3: The Prisoner of Azkaban** – Learn about Sirius Black and master time-turner mechanics.  
+-  **Year 4: The Goblet of Fire** – Enter the **Triwizard Tournament** and face magical challenges.  
+- ️ **Year 5: The Order of the Phoenix** – Join **Dumbledore’s Army** and resist Umbridge’s rule.  
+-  **Year 6: The Half-Blood Prince** – Explore **Voldemort’s history** and uncover **Horcruxes**.  
+- ️ **Year 7: The Deathly Hallows** – Take part in **the final battle**, choosing your **fate in the wizarding war**.  
 
 ## **🚀 Installation & Setup**  
 
