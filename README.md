@@ -40,16 +40,16 @@ Each year in the game follows **major events from the books/movies**, allowing p
 
 ## **🚀 Installation & Setup**  
 
-1️⃣ **Clone the repository:**  
+###1️⃣ **Clone the repository:**  
 
 git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git
-2️⃣ **Install dependencies:**
+###2️⃣ **Install dependencies:**
 
 npm install
-3️⃣ **Start the server:**
+###3️⃣ **Start the server:**
 
 npm start
-4️⃣ **Access the game:** 
+###4️⃣ **Access the game:** 
 
 Open http://localhost:3000 in your browser.
 ## **🛠️ Future Expansions**
