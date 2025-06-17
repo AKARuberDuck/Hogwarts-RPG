@@ -1,20 +1,20 @@
-   # *🪄 Hogwarts RPG*  
+   # 🪄 Hogwarts RPG  
 
    ***Step into the magical world of Hogwarts***, where you’ll experience ***seven unforgettable years***, learning spells, forming alliances, competing for house points, and forging your own wizarding destiny! 
 
-## **🏰 Features**  
+## - **🏰 Features**  
 
-- **Sorting Ceremony** – Get sorted into **Gryffindor, Slytherin, Ravenclaw, or Hufflepuff** based on your personality.  
-- **Wand Selection** – Receive a **custom wand tailored to your magical traits**.  
-- **Advanced Spellcasting & Duels** – Master **strategic spell combat**, combining spells for powerful effects.  
-- **Hogwarts Exploration** – Navigate **moving staircases, hidden passages, secret rooms, and seasonal events**.  
-- **Dynamic House Rivalries** – Compete in **Quidditch, dueling tournaments, potion brewing contests, and inter-house battles**.  
-- **Interactive NPCs & Story Choices** – Build friendships, form alliances, rivalries, and influence major events at Hogwarts.  
-- **Career Progression & Mastery Paths** – Graduate and embark on a **wizarding profession**, such as **Auror, Curse-Breaker, or Professor**, each with unique missions.  
-- **Legendary Hogwarts Quests** – Investigate **forgotten magic, rare artifacts, and exclusive side-storylines**.  
-- **Hidden Passageways & Hogwarts Secrets** – Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.  
+- **Sorting Ceremony** – *Get sorted into **Gryffindor, Slytherin, Ravenclaw, or Hufflepuff** based on your personality.*  
+- **Wand Selection** – *Receive a **custom wand tailored to your magical traits**.*  
+- **Advanced Spellcasting & Duels** – *Master **strategic spell combat**, combining spells for powerful effects.*  
+- **Hogwarts Exploration** – *Navigate **moving staircases, hidden passages, secret rooms, and seasonal events**.*  
+- **Dynamic House Rivalries** – *Compete in **Quidditch, dueling tournaments, potion brewing contests, and inter-house battles**.*  
+- **Interactive NPCs & Story Choices** – *Build friendships, form alliances, rivalries, and influence major events at Hogwarts.*  
+- **Career Progression & Mastery Paths** – *Graduate and embark on a **wizarding profession**, such as **Auror, Curse-Breaker, or Professor**, each with unique missions.*  
+- **Legendary Hogwarts Quests** – *Investigate **forgotten magic, rare artifacts, and exclusive side-storylines**.*  
+- **Hidden Passageways & Hogwarts Secrets** – *Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.*  
 
-## **🎮 Controls**  
+## - **🎮 Controls**  
 
 🖱️ **Mouse:** Click to interact, right-click to defend during duels.  
 🖥️ **Keyboard:**  
@@ -27,7 +27,7 @@
 - `I` – Open inventory  
 - `Mouse Scroll` – Navigate items  
 
-## **⚡ Year-by-Year Story Progression**  
+## - **⚡ Year-by-Year Story Progression**  
 
 Each year follows **major events from the books/movies**, but **your choices** may **alter outcomes** and create **new story possibilities**.  
 
@@ -39,7 +39,7 @@ Each year follows **major events from the books/movies**, but **your choices** m
 6️⃣ **Year 6: The Half-Blood Prince** – Explore **Voldemort’s history** and uncover **Horcruxes**.  
 7️⃣ **Year 7: The Deathly Hallows** – Take part in **the final battle**, choosing your **fate in the wizarding war**.  
 
-## **🚀 Installation & Setup**  
+## - **🚀 Installation & Setup**  
 
 1️⃣ **Clone the repository:** - ```git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git```
 
@@ -49,14 +49,14 @@ Each year follows **major events from the books/movies**, but **your choices** m
 
 4️⃣ **Access the game:** - Open ```https://localhost:3000``` in your browser.
 
-## **🛠️ Future Expansions**
-#### **🎩 Multiplayer Mode** 
+## - **🛠️ Future Expansions**
+#### -- **🎩 Multiplayer Mode** 
    – *Duel other players or compete in inter-house challenges.*
-#### **🪄 Custom Wizard Path** 
+#### -- **🪄 Custom Wizard Path** 
    – *Unlock rare magical abilities and become a legendary wizard.*
-#### **🏰 Hogwarts Secrets**
+#### -- **🏰 Hogwarts Secrets**
    – *Discover hidden chambers, forgotten spells, and mythical creatures.*
 
-## **📜 Credits & Contributions**
-#### ** *Contributions are welcome!* ** 
+## - **📜 Credits & Contributions**
+#### -- ** *Contributions are welcome!* ** 
    - *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀*
