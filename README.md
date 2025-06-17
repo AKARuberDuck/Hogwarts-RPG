@@ -1,6 +1,6 @@
-# 🪄 Hogwarts RPG  
+   # *🪄 Hogwarts RPG*  
 
- **Step into the magical world of Hogwarts**, where you’ll experience **seven unforgettable years**, learning spells, forming alliances, competing for house points, and forging your own wizarding destiny! 
+   ***Step into the magical world of Hogwarts***, where you’ll experience ***seven unforgettable years***, learning spells, forming alliances, competing for house points, and forging your own wizarding destiny! 
 
 ## **🏰 Features**  
 
