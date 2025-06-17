@@ -50,11 +50,11 @@ Each year follows **major events from the books/movies**, but **your choices** m
 4️⃣ **Access the game:** - Open ```https://localhost:3000``` in your browser.
 
 ## **🛠️ Future Expansions**
- **🎩 Multiplayer Mode** 
+#### **🎩 Multiplayer Mode** 
   – Duel other players or compete in inter-house challenges. 
- **🪄 Custom Wizard Path** 
+#### **🪄 Custom Wizard Path** 
    – Unlock rare magical abilities and become a legendary wizard.
- **🏰 Hogwarts Secrets**
+#### **🏰 Hogwarts Secrets**
    – Discover hidden chambers, forgotten spells, and mythical creatures.
 
 ## **📜 Credits & Contributions**
