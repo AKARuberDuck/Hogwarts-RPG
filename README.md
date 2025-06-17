@@ -2,7 +2,7 @@
 
    ***Step into the magical world of Hogwarts***, where you’ll experience ***seven unforgettable years***, learning spells, forming alliances, competing for house points, and forging your own wizarding destiny! 
 
-## **🏰 Features**  
+   ## **🏰 Features**  
 
 - **Sorting Ceremony** – *Get sorted into **Gryffindor, Slytherin, Ravenclaw, or Hufflepuff** based on your personality.*  
 - **Wand Selection** – *Receive a **custom wand tailored to your magical traits**.*  
@@ -14,7 +14,7 @@
 - **Legendary Hogwarts Quests** – *Investigate **forgotten magic, rare artifacts, and exclusive side-storylines**.*  
 - **Hidden Passageways & Hogwarts Secrets** – *Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.*  
 
-## **🎮 Controls**  
+   ## **🎮 Controls**  
 
 🖱️ **Mouse:** Click to interact, right-click to defend during duels.  
 🖥️ **Keyboard:**  
@@ -27,10 +27,10 @@
 - `I` – Open inventory  
 - `Mouse Scroll` – Navigate items  
 
-## **⚡ Year-by-Year Story Progression**  
+   ## **⚡ Year-by-Year Story Progression**  
 
 Each year follows **major events from the books/movies**, but **your choices** may **alter outcomes** and create **new story possibilities**.  
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 -  **Year 1: The Sorcerer’s Stone** – Uncover the mystery of the Philosopher’s Stone.  
 -  **Year 2: The Chamber of Secrets** – Discover the Heir of Slytherin and battle the Basilisk.  
 -  **Year 3: The Prisoner of Azkaban** – Learn about Sirius Black and master time-turner mechanics.  
@@ -39,7 +39,7 @@ Each year follows **major events from the books/movies**, but **your choices** m
 -  **Year 6: The Half-Blood Prince** – Explore **Voldemort’s history** and uncover **Horcruxes**.  
 - ️ **Year 7: The Deathly Hallows** – Take part in **the final battle**, choosing your **fate in the wizarding war**.  
 
-## **🚀 Installation & Setup**  
+   ## **🚀 Installation & Setup**  
 
 1️⃣ **Clone the repository:** - ```git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git```
 
@@ -49,14 +49,14 @@ Each year follows **major events from the books/movies**, but **your choices** m
 
 4️⃣ **Access the game:** - Open ```https://localhost:3000``` in your browser.
 
-## **🛠️ Future Expansions**
-#### **🎩 Multiplayer Mode** 
+   ## **🛠️ Future Expansions**
+ #### **🎩 Multiplayer Mode** 
    – *Duel other players or compete in inter-house challenges.*
-#### **🪄 Custom Wizard Path** 
+ #### **🪄 Custom Wizard Path** 
    – *Unlock rare magical abilities and become a legendary wizard.*
-#### **🏰 Hogwarts Secrets**
+ #### **🏰 Hogwarts Secrets**
    – *Discover hidden chambers, forgotten spells, and mythical creatures.*
 
-## **📜 Credits & Contributions**
-#### ** *Contributions are welcome!* ** 
-   - *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀*
+   ## **📜 Credits & Contributions**
+ #### ** *Contributions are welcome!* ** 
+  - *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀*
