@@ -42,6 +42,7 @@ Each year in the game follows **major events from the books/movies**, allowing p
 1️⃣ **Clone the repository:** 
 
  git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git
+
 2️⃣ Install dependencies:
 
 
