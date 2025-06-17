@@ -58,5 +58,5 @@ Each year follows **major events from the books/movies**, but **your choices** m
    – *Discover hidden chambers, forgotten spells, and mythical creatures.*
 
 ## **📜 Credits & Contributions**
-### **Contributions are welcome!** 
-   - **🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀**
+#### ** *Contributions are welcome!* ** 
+   - *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀*
