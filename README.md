@@ -4,15 +4,15 @@
 
 ## **🏰 Features**  
 
-✅ **Sorting Ceremony** – Get sorted into **Gryffindor, Slytherin, Ravenclaw, or Hufflepuff** based on your personality.  
-✅ **Wand Selection** – Receive a **custom wand tailored to your magical traits**.  
-✅ **Advanced Spellcasting & Duels** – Master **strategic spell combat**, combining spells for powerful effects.  
-✅ **Hogwarts Exploration** – Navigate **moving staircases, hidden passages, secret rooms, and seasonal events**.  
-✅ **Dynamic House Rivalries** – Compete in **Quidditch, dueling tournaments, potion brewing contests, and inter-house battles**.  
-✅ **Interactive NPCs & Story Choices** – Build friendships, form alliances, rivalries, and influence major events at Hogwarts.  
-✅ **Career Progression & Mastery Paths** – Graduate and embark on a **wizarding profession**, such as **Auror, Curse-Breaker, or Professor**, each with unique missions.  
-✅ **Legendary Hogwarts Quests** – Investigate **forgotten magic, rare artifacts, and exclusive side-storylines**.  
-✅ **Hidden Passageways & Hogwarts Secrets** – Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.  
+- **Sorting Ceremony** – Get sorted into **Gryffindor, Slytherin, Ravenclaw, or Hufflepuff** based on your personality.  
+- **Wand Selection** – Receive a **custom wand tailored to your magical traits**.  
+- **Advanced Spellcasting & Duels** – Master **strategic spell combat**, combining spells for powerful effects.  
+- **Hogwarts Exploration** – Navigate **moving staircases, hidden passages, secret rooms, and seasonal events**.  
+- **Dynamic House Rivalries** – Compete in **Quidditch, dueling tournaments, potion brewing contests, and inter-house battles**.  
+- **Interactive NPCs & Story Choices** – Build friendships, form alliances, rivalries, and influence major events at Hogwarts.  
+- **Career Progression & Mastery Paths** – Graduate and embark on a **wizarding profession**, such as **Auror, Curse-Breaker, or Professor**, each with unique missions.  
+- **Legendary Hogwarts Quests** – Investigate **forgotten magic, rare artifacts, and exclusive side-storylines**.  
+- **Hidden Passageways & Hogwarts Secrets** – Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.  
 
 ## **🎮 Controls**  
 
