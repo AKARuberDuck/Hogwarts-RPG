@@ -1,6 +1,6 @@
 # 🪄 Hogwarts RPG  
 
-An immersive **Harry Potter-inspired RPG**, where players experience **seven years at Hogwarts**, learn magic, compete for house points, and shape their own destiny!  
+An immersive **Harry Potter-inspired RPG**, where players experience **seven years at Hogwarts**, learning magic, competing for house points, and shaping their own destiny!  
 
 ## **🏰 Features**  
 
@@ -12,6 +12,7 @@ An immersive **Harry Potter-inspired RPG**, where players experience **seven yea
 ✅ **NPC Interactions & Story Choices** – Build friendships, **form alliances, rivalries, and impact major plot events**.  
 ✅ **Career Progression & Mastery Paths** – Graduate from Hogwarts and choose a **wizarding profession**, such as **Auror, Curse-Breaker, or Professor**.  
 ✅ **Legendary Hogwarts Quests** – Investigate **forgotten history, rare magical artifacts, and exclusive storylines**.  
+✅ **Hidden Passageways & Hogwarts Secrets** – Discover **rare magical locations**, uncover lost knowledge, and **alter major story outcomes**.  
 
 ## **🎮 Controls**  
 
@@ -44,20 +45,19 @@ Each year in the game follows **major events from the books/movies**, allowing p
 1️⃣ **Clone the repository:**  
 
 git clone https://github.com/AKARuberDuck/Hogwarts-RPG.git
-
 2️⃣ **Install dependencies:**
-  
-  npm install
+
+npm install
 3️⃣ **Start the server:**
 
+npm start
+4️⃣ **Access the game:** 
 
-  npm start
-4️⃣ **Access the game: Open http://localhost:3000 in your browser.**
+Open http://localhost:3000 in your browser.
+# **🛠️ Future Expansions**
+### **🎩 Multiplayer Mode** – Duel other players or compete in inter-house challenges. 
+### **🪄 Custom Wizard Path** – Unlock rare magical abilities and become a legendary wizard.
+### **🏰 Hogwarts Secrets** – Discover hidden chambers, forgotten spells, and mythical creatures.
 
-#### **🛠️ Future Expansions**
-🎩 **Multiplayer Mode** – Duel other players or compete in inter-house challenges.
-🪄 **Custom Wizard Path** – Unlock rare magical abilities and become a legendary wizard.
-🏰 **Hogwarts Secrets** – Discover hidden chambers, forgotten spells, and mythical creatures.
-
-## **📜 Credits & Contributions**
+# **📜 Credits & Contributions**
 Contributions are welcome! 🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀
