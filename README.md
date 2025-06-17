@@ -59,4 +59,4 @@ Each year follows **major events from the books/movies**, but **your choices** m
 
    ## **📜 Credits & Contributions**
  #### ** *Contributions are welcome!* ** 
-  - *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀*
+  **- *🧙 Feel free to submit pull requests or open issues to help improve the game. 🚀***
