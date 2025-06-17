@@ -51,11 +51,11 @@ Each year follows **major events from the books/movies**, but **your choices** m
 
 ## **🛠️ Future Expansions**
 #### **🎩 Multiplayer Mode** 
-  – Duel other players or compete in inter-house challenges. 
+   – *Duel other players or compete in inter-house challenges.*
 #### **🪄 Custom Wizard Path** 
-   – Unlock rare magical abilities and become a legendary wizard.
+   – *Unlock rare magical abilities and become a legendary wizard.*
 #### **🏰 Hogwarts Secrets**
-   – Discover hidden chambers, forgotten spells, and mythical creatures.
+   – *Discover hidden chambers, forgotten spells, and mythical creatures.*
 
 ## **📜 Credits & Contributions**
 ### **Contributions are welcome!** 
